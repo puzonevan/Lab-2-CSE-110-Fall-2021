@@ -110,6 +110,55 @@
     <!-- Comments Section -->
     <section id="comments">
         <h2>Comments | Questions | Conerns</h2>
+        <form>
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="name">Name: </label><br>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="comment">Comment: </label><br>
+                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit"></input>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="">Subject: </label><br>
+                <input list="subjects" id="subject" name="subject"><br>
+                <datalist id="subjects">
+                    <option value="This Meeting">
+                    <option value="Last Meeting">
+                    <option value="Other">
+                </datalist>
+                
+                <label for="comment">Question: </label><br>
+                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit"></input>
+            </fieldset>
+
+            <fieldset>
+                <legend>Concerns</legend>
+                <label for="">Subject: </label><br>
+                <select name="subjects" id="subjects">
+                    <option value="This Meeting">This Meeting</option>
+                    <option value="Last Meeting">Last Meeting</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                
+                <label for="comment">Concern: </label><br>
+                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit"></input>
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey</legend>
+                <label for="">Available days for Work Hangout: </label><br>
+                
+                
+                <input type="submit" value="Submit"></input>
+            </fieldset>
+        </form>
     </section><hr>
 
     <footer>
