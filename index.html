@@ -110,6 +110,9 @@
     <!-- Comments Section -->
     <section id="comments">
         <h2>Comments | Questions | Conerns</h2>
+        <button>Comments</button>
+        <button>Questions</button>
+        <button>Concerns</button>
         <form>
             <fieldset>
                 <legend>Comments</legend>
@@ -153,8 +156,22 @@
 
             <fieldset>
                 <legend>Survey</legend>
-                <label for="">Available days for Work Hangout: </label><br>
-                
+                <label for="date">Available days for Work Hangout: </label><br>
+                <input type="date" id="hangout" value="2021-10-01" min="2021-10-01" max="2021-10-30"><br>
+
+                <label for="">Activity</label><br>
+                <input type="radio" name="activity" id="barbq" value="barbq" checked>
+                <label for="barbq">Bar-B-Q</label><br>
+                <input type="radio" name="activity" id="park" value="park" >
+                <label for="park">Park</label><br>
+                <input type="radio" name="activity" id="movies" value="movies" >
+                <label for="movies">Movies</label><br>
+
+                <label for="">Snacks</label>
+                <input type="checkbox" name="snacks" id="doritos" value="doritos">
+                <label for="doritos">Doritos</label>
+                <input type="checkbox" name="snacks" id="fruits" value="fruits">
+                <label for="doritos">Fruits</label><br>
                 
                 <input type="submit" value="Submit"></input>
             </fieldset>
