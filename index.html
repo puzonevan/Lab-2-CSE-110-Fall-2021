@@ -16,9 +16,10 @@
     </header>
 
     <!-- Table of Contents -->
+    <span>
     <nav>
         <h2>Table of Contents</h2>
-        <span>
+        
         <ol>
             <li><em><a href="#agenda">Agenda</a></em></li><br>
             <li><em><a href="#lastMeeting">Last Meeting</a></em></li><br>
@@ -26,8 +27,8 @@
             <li><em><a href="#demonstrations">Demonstrations</a></em></li><br>
             <li><em><a href="#comments">Comments | Questions | Conerns</a></em></li><br>
         </ol>
-        </span>
-    </nav><hr>
+        
+    </nav></span><hr>
 
     <!-- Agenda Section -->
     <section id="agenda">
@@ -127,7 +128,7 @@
                 
                 <label for="comment">Comment: </label><br>
                 <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit"></input>
+                <input type="submit" value="Submit">
             </fieldset>
 
             <fieldset>
@@ -140,14 +141,14 @@
                     <option value="Other">
                 </datalist>
                 
-                <label for="comment">Question: </label><br>
-                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit"></input>
+                <label for="questions">Question: </label><br>
+                <textarea id="questions" name="questions" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
             </fieldset>
 
             <fieldset>
                 <legend>Concerns</legend>
-                <label for="">Subject: </label><br>
+                <label for="subjects">Subject: </label><br>
                 <select name="subjects" id="subjects">
                     <option value="This Meeting">This Meeting</option>
                     <option value="Last Meeting">Last Meeting</option>
@@ -155,9 +156,9 @@
                 </select>
                 <br><br>
                 
-                <label for="comment">Concern: </label><br>
-                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit"></input>
+                <label for="concern">Concern: </label><br>
+                <textarea id="concern" name="concern" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
             </fieldset>
 
             <fieldset>
@@ -165,7 +166,7 @@
                 <label for="date">Available days for Work Hangout: </label><br>
                 <input type="date" id="hangout" value="2021-10-01" min="2021-10-01" max="2021-10-30"><br>
 
-                <label for="">Activity</label><br>
+                <label for="activity">Activity</label><br>
                 <input type="radio" name="activity" id="barbq" value="barbq" checked>
                 <label for="barbq">Bar-B-Q</label><br>
                 <input type="radio" name="activity" id="park" value="park" >
@@ -173,13 +174,13 @@
                 <input type="radio" name="activity" id="movies" value="movies" >
                 <label for="movies">Movies</label><br>
 
-                <label for="">Snacks</label>
+                <label for="snacks">Snacks</label>
                 <input type="checkbox" name="snacks" id="doritos" value="doritos">
                 <label for="doritos">Doritos</label>
                 <input type="checkbox" name="snacks" id="fruits" value="fruits">
                 <label for="doritos">Fruits</label><br>
                 
-                <input type="submit" value="Submit"></input>
+                <input type="submit" value="Submit">
             </fieldset>
         </form>
     </section><hr>
