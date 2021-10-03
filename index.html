@@ -16,10 +16,9 @@
     </header>
 
     <!-- Table of Contents -->
-    <span>
+    
     <nav>
         <h2>Table of Contents</h2>
-        
         <ol>
             <li><em><a href="#agenda">Agenda</a></em></li><br>
             <li><em><a href="#lastMeeting">Last Meeting</a></em></li><br>
@@ -27,8 +26,9 @@
             <li><em><a href="#demonstrations">Demonstrations</a></em></li><br>
             <li><em><a href="#comments">Comments | Questions | Conerns</a></em></li><br>
         </ol>
-        
-    </nav></span><hr>
+    </nav><hr>
+
+    <span></span>
 
     <!-- Agenda Section -->
     <section id="agenda">
@@ -133,8 +133,8 @@
 
             <fieldset>
                 <legend>Questions</legend>
-                <label for="">Subject: </label><br>
-                <input list="subjects" id="subject" name="subject"><br>
+                <label for="subjectQ">Subject: </label><br>
+                <input list="subjects" id="subjectQ" name="subjectQ"><br>
                 <datalist id="subjects">
                     <option value="This Meeting">
                     <option value="Last Meeting">
@@ -163,10 +163,10 @@
 
             <fieldset>
                 <legend>Survey</legend>
-                <label for="date">Available days for Work Hangout: </label><br>
+                
                 <input type="date" id="hangout" value="2021-10-01" min="2021-10-01" max="2021-10-30"><br>
 
-                <label for="activity">Activity</label><br>
+                
                 <input type="radio" name="activity" id="barbq" value="barbq" checked>
                 <label for="barbq">Bar-B-Q</label><br>
                 <input type="radio" name="activity" id="park" value="park" >
@@ -174,7 +174,7 @@
                 <input type="radio" name="activity" id="movies" value="movies" >
                 <label for="movies">Movies</label><br>
 
-                <label for="snacks">Snacks</label>
+                
                 <input type="checkbox" name="snacks" id="doritos" value="doritos">
                 <label for="doritos">Doritos</label>
                 <input type="checkbox" name="snacks" id="fruits" value="fruits">
