@@ -4,7 +4,10 @@ Fill in the passphrases here.
 3. HTMLRocks
 4. JavaScriptRules
 5. SvelteBeatsReacts
+6. ThisIsJs
 7. YouFoundMe
 8. coolcoolcool
 9. 2020Sucked
+10. listenToTheBlackKeys
 11. a11yComesFirst
+12. iLoveWebDev
